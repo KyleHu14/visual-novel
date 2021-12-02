@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/* Injected Elements :  */
+
+/* Button */
+
+.button {
+  background-color: #e03fdd;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  font-family: "Open Sans";
+
+}
+
+/* Shadow Effect on Buttons */
+.normal {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.shadow:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* Toggle Switch */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #ff8cf2;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #ff8cf2;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+/* Non Injected Elements */
+p{
+  font-family : "Open Sans";
+  padding-bottom: 0px;
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  padding: 0px;
+  margin: 0px;
+  /* background-color: #F7CFF4; */
+  background-image: url("images/notepaper2.jpg");
+  min-height: 100%;
+}
+
+img{
+  filter: alpha(opacity = 100);
+  opacity: 1;
+}
+
+.backgroundMusic{
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  font-size: 18px;
+}
+
+.textBox{
+  padding-bottom: 0px;
+}
+
+.invisible{
+  display: none;
+}
+
+.title{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Open Sans";
+  /* background-color:white; */
+
+}
+
+.blue{
+  color: #0399D3;
+}
+
+.pink{
+  color: #DC518D;
+}
+
+.story{
+
+}
+
+.storyRow{
+   height:70vh;
+   background-image: url("images/highschool.jpg");
+   background-size:cover;
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-bottom: 30px;
+   border: 2px solid white;
+}
+
+/* Transparent Box */
+.transBox{
+  margin: 30px;
+  height: 63vh;
+  background-color: rgb(255,255,255, 0.8);
+  /* opacity: 0.8; */
+  /* filter: alpha(opacity=60); */
+}
+
+.textBox{
+  padding:10px;
+  font-family : "Open Sans";
+  font-size: 20px;
+  opacity: 1;
+  color:black;
+  filter: alpha(opacity = 100);
+}
+
+.btnRow{
+}
+
+
+
+.game-area{
+  text-align: center;
+  height: 500px;
+}
+
+.btn{
+  width: 100px;
+  color: #9400e3;
+  text-align: center;
+  padding: 10px;
+  margin:auto;
+}

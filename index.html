@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Visual Novel</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="visualNovel.css">
+
+
+</head>
+<body>
+
+        <div class = "title">
+          <span class = "blue">
+            My Youth
+          </span>
+
+          <span class = "pink">
+            Romantic Comedy Is Wrong,
+          </span>
+
+          <span class = "blue">
+            As I Expected
+          </span>
+        </div>
+
+        <!-- Main Game Place -->
+        <div class="game-area">
+
+        <div class = "button shadow backgroundMusic">
+          Background Music
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+
+            <!-- Story Content -->
+            <!-- Row for the game screen where the highschool background-->
+            <div class = "row storyRow">
+              <!-- Transparent Box inside the highschool picture -->
+              <div class = "transBox">
+                <!-- Text box that contains text -->
+                <div class = "textBox" style = "padding-bottom: 0px">
+                  <p> Welcome to Kyle's visual novel. You will be viewing the world as Hikigaya Hachiman. Feel free to turn on the background music if you like.</p>
+                </div>
+
+                <div class = "picture" style = "padding-top: 0px">
+                  <img src = "images/hikigaya.jpg" style = "width: 60vh;">
+                </div>
+
+
+
+              <!-- Video Part, only used in first scene -->
+
+                <div class = "video" style = "padding-top: 0px">
+
+                </div>
+              </div>
+            </div>
+
+            <!-- Game Buttons -->
+            <div class = "row btnRow">
+
+              <div class="button start-btn shadow">
+                Start
+              </div>
+
+              <div class = "button restart shadow invisible">
+                Restart
+              </div>
+
+              <div class="button next-btn-1 shadow invisible">
+                Next
+              </div>
+
+              <div class="button next-btn-2 shadow invisible">
+                Next
+              </div>
+
+              <div class="button next-btn-3 shadow invisible">
+                Next
+              </div>
+
+              <div class="button next-btn-4 shadow invisible">
+                Next
+              </div>
+
+              <div class = "button next-btn-5 shadow invisible">
+                Next
+              </div>
+
+              <!-- Decision 1 : Asking what the club is about or insisting on leaving -->
+              <div class = "button decision-1 choice-1 shadow invisible">
+                Hold on, what is the meaning of this?
+              </div>
+
+              <div class = "button decision-1 choice-2 shadow invisible">
+                I didn't sign up for this, I'm gonna leave.
+              </div>
+
+              <!-- Decision 2 : Same as decision 1 but leads to first game over  -->
+              <div class = "button decision-2 choice-1 shadow invisible">
+                F-Fine, why am I here anyways?
+              </div>
+
+              <div class = "button decision-2 choice-2 shadow invisible">
+                I insist on leaving.
+              </div>
+
+              <div class = "button next-btn-6 shadow invisible">
+                Next
+              </div>
+
+              <div class = "button next-btn-7 shadow invisible">
+                Next
+              </div>
+
+              <div class = "button next-btn-8 shadow invisible">
+                Next
+              </div>
+
+              <div class = "button next-btn-9 shadow invisible">
+                Next
+              </div>
+
+              <div class = "button decision-3 choice-1 shadow invisible">
+                Are you kidding me? Im not participating.
+              </div>
+
+              <div class = "button decision-3 choice-2 shadow invisible">
+                Anything? Are you serious?
+              </div>
+
+              <div class = "button next-btn-10 shadow invisible">
+                Next
+              </div>
+
+              <div class = "button next-btn-11 shadow invisible">
+                Next
+              </div>
+
+              <div class = "button next-btn-12 shadow invisible">
+                Next
+              </div>
+
+            </div>
+          </div>
+
+
+          <!-- Link to JS file -->
+          <script src = "visualNovel.js"></script>
+
+</body>
+</html>
